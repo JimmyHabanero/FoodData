@@ -9,4 +9,5 @@ urlpatterns = [
         FoodAutocomplete.as_view(),
         name='food-autocomplete',
     ),
+    url(r'^$', views.index)
 ]
